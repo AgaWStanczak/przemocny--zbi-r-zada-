@@ -5,25 +5,22 @@ body {
 }
 
 .row {
-	width: 900px;
-}
-
-.col {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: space-around;
 }
 
+
 .big {
-	width: 420px;
+	flex: 2 400px;
 	height: 420px;
 	background-color: #575965;
 	border-radius: 10px;
-	
 	margin: 10px;
 }
 
 .small {
-	width: 200px;
+	flex: 1 200px;
 	height: 200px;
 	background-color: #c3c4c8;
 	
@@ -32,7 +29,7 @@ body {
 }
 
 .small-back {
-	width: 200px;
+	flex: 1 200px;
 	height: 200px;
 	background-color: #939498;
 
@@ -40,7 +37,7 @@ body {
 	margin: 10px;
 }
 .big1 {
-	width: 420px;
+	flex: 2 400px;
 	height: 420px;
 	background-color: #575965;
 	border-radius: 10px;
@@ -53,7 +50,7 @@ body {
 	animation: round 10s linear 0.1s;
 }
 
-@keyframes round {
+/*@keyframes round {
 	0% {
 		
 	}
@@ -113,4 +110,4 @@ body {
 		background-color: #c3c4c8;
 		;
 	}
-}
+} */
