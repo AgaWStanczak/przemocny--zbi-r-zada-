@@ -23,7 +23,7 @@ body {
 	flex: 1 200px;
 	height: 200px;
 	background-color: #c3c4c8;
-	
+	flex-flow: row-reverse;
 	border-radius: 10px;
 	margin: 10px;
 }
@@ -63,7 +63,7 @@ body {
 	}
 	
 	25% {
-		background-color: #939498;
+		background-color: #1B9AAA;
 		-webkit-transform: rotateY(90deg);
 		-moz-transform: rotateY(90deg);
 		-o-transform: rotateY(90deg);
@@ -71,7 +71,7 @@ body {
 	}
 	
 	37.5% {
-		background-color: #939498;
+		background-color: #1B9AAA;
 		-webkit-transform: perspective(150px) rotateY(45deg);
 		-moz-transform: perspective(150px) rotateY(45deg);
 		-o-transform: perspective(150px) rotateY(45deg);
@@ -79,11 +79,11 @@ body {
 	}
 	
 	50% {
-		background-color: #939498;
+		background-color: #1B9AAA;
 	}
 	
 	62.5% {
-		background-color: #939498;
+		background-color: #1B9AAA;
 		-webkit-transform: perspective(150px) rotateY(-45deg);
 		-moz-transform: perspective(150px) rotateY(-45deg);
 		-o-transform: perspective(150px) rotateY(-45deg);
