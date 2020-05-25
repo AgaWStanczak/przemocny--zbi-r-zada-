@@ -1,47 +1,52 @@
 body {
 	background-color: #f8f8f6;
-	margin: auto;	
+	margin: 0;
+	padding: 0;
 }
 
 .row {
 	display: flex;
-	flex-wrap: wrap;
-	/* height: 650px;*/
+	width: 100%;
 }
 
+.half {
+	width: 50%;
+	height: 650px;
+	display: flex;
+	flex-wrap: wrap;
+}
 
 .big {
-	flex: 2 600px;
+	width: 98%;
 	height: 620px;
 	background-color: #575965;
 	border-radius: 10px;
 	margin: 10px;
 }
-
 .small {
-	flex-shrink: 0;
-	flex: 1 300px;
-	height: 300px;
 	background-color: #c3c4c8;
-	flex-flow: row-reverse;
 	border-radius: 10px;
 	margin: 10px;
+	width: 47%;
+	height: 300px;
+	justyfy-content: space-evenly;
+	flex-wrap: wrap;
+	
 }
 
 .small-back {
-	flex: 1 300px;
-	height: 300px;
 	background-color: #939498;
-
 	border-radius: 10px;
 	margin: 10px;
+	width: 47%;
+	height: 300px;
 }
+
 .big1 {
-	flex: 2 600px;
+	width: 98%;
 	height: 620px;
 	background-color: #575965;
 	border-radius: 10px;
-	
 	margin: 10px;
 }
 
