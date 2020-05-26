@@ -1,5 +1,8 @@
 .tags {
+	height: 100%;
 	display: flex;
 	flex-direction: row-reverse;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: center;
 }
