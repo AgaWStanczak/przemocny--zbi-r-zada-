@@ -21,13 +21,13 @@ body {
 	width: 98%;
 	height: 620px;
 	background-color: #575965;
-	border-radius: 10px;
+	border-radius: 1%;
 	margin: 10px;
 }
 .small {
 	background-color: #c3c4c8;
 	border-radius: 10px;
-	margin: 10px;
+	margin: 1%;
 	width: 47%;
 	height: 300px;
 }
@@ -35,7 +35,7 @@ body {
 .small-back {
 	background-color: #939498;
 	border-radius: 10px;
-	margin: 10px;
+	margin: 1%;
 	width: 47%;
 	height: 300px;
 }
